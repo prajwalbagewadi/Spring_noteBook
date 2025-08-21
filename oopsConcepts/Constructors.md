@@ -42,7 +42,7 @@ class Dish{
         dprice=0.00f;       
     }
 
-    //overloaded.
+    //overloaded constructor
     Dish(String name,float price){
         this.dname=name;
         this.dprice=price;
