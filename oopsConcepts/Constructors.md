@@ -68,3 +68,12 @@ public class Main{
     }
 }
 ```
+```
+o/p
+Dish:
+Dish Name:null
+Dish Price:0.0
+Dish:
+Dish Name:Margherita Pizza
+Dish Price:400.0
+```
