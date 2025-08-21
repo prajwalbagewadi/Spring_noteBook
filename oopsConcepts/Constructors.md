@@ -28,3 +28,43 @@ class NameOfClass {
     }
 }
 ```
+
+## program
+```
+class Dish{
+    //properties
+    private String dname;
+    float dprice;
+
+    //constructor
+    Dish(){
+        dname=null;
+        dprice=0.00f;       
+    }
+
+    //overloaded.
+    Dish(String name,float price){
+        this.dname=name;
+        this.dprice=price;
+    }
+    //methods
+    
+    void showDish(){
+        System.out.println("Dish:");
+        System.out.println("Dish Name:"+this.dname);
+        System.out.println("Dish Price:"+this.dprice);       
+    }
+}
+
+public class Main{
+    public static void main(String[] args){
+        //objects
+        Dish d1=new Dish();
+        Dish d2=new Dish("Margherita Pizza",400);
+
+        //invoking class methods
+        d1.showDish();
+        d2.showDish();
+    }
+}
+```
